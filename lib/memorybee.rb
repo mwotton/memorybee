@@ -2,8 +2,7 @@ require "memorybee/version"
 require 'memrise'
 
 module Memorybee
-  def poll
-
+  def self.poll
     token=ENV['BMNDR_TOKEN'] or
       raise "must define BMNDR_TOKEN!"
     memrise_user=ENV['MEMRISE_USER'] or

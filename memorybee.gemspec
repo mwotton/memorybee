@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = Memorybee::VERSION
   spec.authors       = ["Mark Wotton"]
   spec.email         = ["mwotton@gmail.com"]
-  spec.description   = %q{TODO: Write a gem description}
-  spec.summary       = %q{TODO: Write a gem summary}
+  spec.description   = %q{memrise -> beeminder bridge}
+  spec.summary       = %q{This is a way to synchronise your memrise scores with beeminder}
   spec.homepage      = ""
   spec.license       = "MIT"
 
