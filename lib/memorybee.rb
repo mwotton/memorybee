@@ -1,5 +1,6 @@
 require "memorybee/version"
 require 'memrise'
+require 'beeminder'
 
 module Memorybee
   def self.poll
