@@ -1,6 +1,7 @@
 # Memorybee
 
-TODO: Write a gem description
+A little bridge between (memrise)[http://memrise.com] and
+(beeminder)[http://beeminder.com]
 
 ## Installation
 
@@ -18,7 +19,19 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+While you're free to do what you like with this, I use it on heroku.
+
+    mkdir memrisepoller
+    cd memrisepoller
+    git init
+    echo "require 'memorybee'; Memorybee::poll'" > poll.rb
+    git commit . -m "poller"
+    heroku create
+    git push heroku master
+    heroku addons:add scheduler:standard
+    heroku addons:open scheduler
+    # add a schedule to run "ruby poll.rb" daily
+
 
 ## Contributing
 
