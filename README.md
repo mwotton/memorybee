@@ -1,7 +1,7 @@
 # Memorybee
 
-A little bridge between (memrise)[http://memrise.com] and
-(beeminder)[http://beeminder.com]
+A little bridge between [memrise](http://memrise.com) and
+[beeminder](http://beeminder.com)
 
 ## Installation
 
